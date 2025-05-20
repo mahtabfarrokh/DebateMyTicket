@@ -1,18 +1,19 @@
 [project]
-name = "debatemyticket"
+name = "debate_my_ticket"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.10"
+description = "AI debates whether you should pay or fight your ticket"
+requires-python = ">=3.11"
 dependencies = [
-    "beautifulsoup4==4.12.3",
-    "langgraph==0.0.15",
-    "litellm==1.30.7",
-    "openai==1.12.0",
-    "pandas==2.2.1",
-    "pillow==10.2.0",
-    "pytesseract==0.3.10",
-    "python-dotenv==1.0.1",
-    "requests==2.31.0",
-    "streamlit==1.32.0",
+    "streamlit>=1.32.0",
+    "langgraph>=0.0.20",
+    "litellm>=1.30.7",
+    "openai>=1.12.0",
+    "python-dotenv>=1.0.0",
+    "Pillow>=10.2.0",
+    "beautifulsoup4>=4.12.3",
+    "requests>=2.31.0",
+    "pydantic>=2.6.3",
+    "langchain-openai>=0.3.17",
+    "pytesseract>=0.3.13",
 ]
+
